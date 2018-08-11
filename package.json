@@ -1,16 +1,26 @@
 {
-  "name": "todo-api",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "body-parser": "^1.18.3",
-    "express": "^4.16.3",
-    "mongoose": "^5.2.7"
-  }
+    "name": "todo-api",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server/server.js"
+    },
+    "engines": {
+        "node": "9.2.0"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.18.3",
+        "express": "^4.16.3",
+        "mongoose": "^5.2.7"
+    },
+    "devDependencies": {
+        "expect": "^23.5.0",
+        "mocha": "^5.2.0",
+        "nodemon": "^1.18.3",
+        "supertest": "^3.1.0"
+    }
 }
